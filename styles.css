@@ -96,3 +96,38 @@ input[type="text"], input[type="tel"], input[type="date"], textarea, select {
 .submit-btn:hover {
     background-color: #218838;
 }
+
+.form-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Submit button */
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Cancel button */
+.cancel-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #a71d2a;
+}
